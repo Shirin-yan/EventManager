@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6692369E2D3E6A1900507B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669236982D3E6A1900507B0A /* Preview Assets.xcassets */; };
+		6692369F2D3E6A1900507B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6692369A2D3E6A1900507B0A /* Assets.xcassets */; };
+		669236A02D3E6A1900507B0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692369B2D3E6A1900507B0A /* ContentView.swift */; };
+		669236A12D3E6A1900507B0A /* EventManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692369C2D3E6A1900507B0A /* EventManagerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		669236752D3E688C00507B0A /* EventManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669236982D3E6A1900507B0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6692369A2D3E6A1900507B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6692369B2D3E6A1900507B0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6692369C2D3E6A1900507B0A /* EventManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		669236772D3E688C00507B0A /* EventManager */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EventManager;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		669236722D3E688C00507B0A /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		6692366C2D3E688C00507B0A = {
 			isa = PBXGroup;
 			children = (
-				669236772D3E688C00507B0A /* EventManager */,
+				6692369D2D3E6A1900507B0A /* EventManager */,
 				669236762D3E688C00507B0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				669236752D3E688C00507B0A /* EventManager.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		669236992D3E6A1900507B0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				669236982D3E6A1900507B0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6692369D2D3E6A1900507B0A /* EventManager */ = {
+			isa = PBXGroup;
+			children = (
+				669236992D3E6A1900507B0A /* Preview Content */,
+				6692369A2D3E6A1900507B0A /* Assets.xcassets */,
+				6692369B2D3E6A1900507B0A /* ContentView.swift */,
+				6692369C2D3E6A1900507B0A /* EventManagerApp.swift */,
+			);
+			path = EventManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				669236772D3E688C00507B0A /* EventManager */,
 			);
 			name = EventManager;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6692369E2D3E6A1900507B0A /* Preview Assets.xcassets in Resources */,
+				6692369F2D3E6A1900507B0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669236A02D3E6A1900507B0A /* ContentView.swift in Sources */,
+				669236A12D3E6A1900507B0A /* EventManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
