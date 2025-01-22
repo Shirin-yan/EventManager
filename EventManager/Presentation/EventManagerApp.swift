@@ -12,6 +12,7 @@ struct EventManagerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Coordinator())
         }
     }
 }
